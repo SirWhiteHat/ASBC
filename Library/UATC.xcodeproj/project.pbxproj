@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0765196C19767D220057BE0E /* uatcDspIir.h in Headers */ = {isa = PBXBuildFile; fileRef = 0765196B19767D220057BE0E /* uatcDspIir.h */; };
+		079E760419800FD0009E7BBF /* uatcEffectorIirsos.h in Headers */ = {isa = PBXBuildFile; fileRef = 079E760319800FD0009E7BBF /* uatcEffectorIirsos.h */; };
+		07E21AF01961A1630083D560 /* uatcDspManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078BF09A19619570007046B3 /* uatcDspManager.cpp */; };
+		07E21AF11961A1630083D560 /* uatcDspManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 078BF09B19619570007046B3 /* uatcDspManager.h */; };
+		07E21AF21961A1630083D560 /* uatcEffector.h in Headers */ = {isa = PBXBuildFile; fileRef = 078BF09C19619570007046B3 /* uatcEffector.h */; };
+		07E21AF31961A1630083D560 /* uatcEffectorFdfir.h in Headers */ = {isa = PBXBuildFile; fileRef = 078BF09D19619570007046B3 /* uatcEffectorFdfir.h */; };
+		07E21AF41961A1630083D560 /* uatcEffectorFlat.h in Headers */ = {isa = PBXBuildFile; fileRef = 078BF09E19619570007046B3 /* uatcEffectorFlat.h */; };
+		07E21AF71961A1630083D560 /* UATC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E749EF19409B400074D15C /* UATC.cpp */; };
+		07E21AF81961A1630083D560 /* UATC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E749F019409B400074D15C /* UATC.h */; };
+		A903B8FE1979652400ED3388 /* uatcEffectorFdfireff.h in Headers */ = {isa = PBXBuildFile; fileRef = A903B8FD1979652400ED3388 /* uatcEffectorFdfireff.h */; };
+		A937DD071975AB0A00FC8511 /* uatcEffectorIir.h in Headers */ = {isa = PBXBuildFile; fileRef = A937DD061975AB0A00FC8511 /* uatcEffectorIir.h */; };
+		A9C32EC31BBFFAB1000F34FC /* uatcMatlab.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C32EBC1BBFFAB1000F34FC /* uatcMatlab.h */; };
+		A9C32EE71BC07FDB000F34FC /* uatcDspFdfir1024Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED01BC07FDB000F34FC /* uatcDspFdfir1024Coefficients.cpp */; };
+		A9C32EE81BC07FDB000F34FC /* uatcDspFdfir128Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED11BC07FDB000F34FC /* uatcDspFdfir128Coefficients.cpp */; };
+		A9C32EE91BC07FDB000F34FC /* uatcDspFdfir256Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED21BC07FDB000F34FC /* uatcDspFdfir256Coefficients.cpp */; };
+		A9C32EEA1BC07FDB000F34FC /* uatcDspFdfir32Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED31BC07FDB000F34FC /* uatcDspFdfir32Coefficients.cpp */; };
+		A9C32EEB1BC07FDB000F34FC /* uatcDspFdfir512Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED41BC07FDB000F34FC /* uatcDspFdfir512Coefficients.cpp */; };
+		A9C32EEC1BC07FDB000F34FC /* uatcDspFdfir64Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED51BC07FDB000F34FC /* uatcDspFdfir64Coefficients.cpp */; };
+		A9C32EED1BC07FDB000F34FC /* uatcDspFir1024Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED61BC07FDB000F34FC /* uatcDspFir1024Coefficients.cpp */; };
+		A9C32EEE1BC07FDB000F34FC /* uatcDspFir128Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED71BC07FDB000F34FC /* uatcDspFir128Coefficients.cpp */; };
+		A9C32EEF1BC07FDB000F34FC /* uatcDspFir256Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED81BC07FDB000F34FC /* uatcDspFir256Coefficients.cpp */; };
+		A9C32EF01BC07FDB000F34FC /* uatcDspFir32Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32ED91BC07FDB000F34FC /* uatcDspFir32Coefficients.cpp */; };
+		A9C32EF11BC07FDB000F34FC /* uatcDspFir512Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDA1BC07FDB000F34FC /* uatcDspFir512Coefficients.cpp */; };
+		A9C32EF21BC07FDB000F34FC /* uatcDspFir64Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDB1BC07FDB000F34FC /* uatcDspFir64Coefficients.cpp */; };
+		A9C32EF31BC07FDB000F34FC /* uatcDspIiryw16Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDC1BC07FDB000F34FC /* uatcDspIiryw16Coefficients.cpp */; };
+		A9C32EF41BC07FDB000F34FC /* uatcDspIiryw32Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDD1BC07FDB000F34FC /* uatcDspIiryw32Coefficients.cpp */; };
+		A9C32EF51BC07FDB000F34FC /* uatcDspIiryw4Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDE1BC07FDB000F34FC /* uatcDspIiryw4Coefficients.cpp */; };
+		A9C32EF61BC07FDB000F34FC /* uatcDspIiryw64Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EDF1BC07FDB000F34FC /* uatcDspIiryw64Coefficients.cpp */; };
+		A9C32EF71BC07FDB000F34FC /* uatcDspIiryw8Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE01BC07FDB000F34FC /* uatcDspIiryw8Coefficients.cpp */; };
+		A9C32EF81BC07FDB000F34FC /* uatcDspIirywsos16Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE11BC07FDB000F34FC /* uatcDspIirywsos16Coefficients.cpp */; };
+		A9C32EF91BC07FDB000F34FC /* uatcDspIirywsos32Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE21BC07FDB000F34FC /* uatcDspIirywsos32Coefficients.cpp */; };
+		A9C32EFA1BC07FDB000F34FC /* uatcDspIirywsos4Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE31BC07FDB000F34FC /* uatcDspIirywsos4Coefficients.cpp */; };
+		A9C32EFB1BC07FDB000F34FC /* uatcDspIirywsos64Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE41BC07FDB000F34FC /* uatcDspIirywsos64Coefficients.cpp */; };
+		A9C32EFC1BC07FDB000F34FC /* uatcDspIirywsos8Coefficients.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C32EE51BC07FDB000F34FC /* uatcDspIirywsos8Coefficients.cpp */; };
+		A9C32EFD1BC07FDB000F34FC /* uatcMatlab.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C32EE61BC07FDB000F34FC /* uatcMatlab.h */; };
+		A9EF5B79196B35CF003F2183 /* uatcDspOverlapAdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9EF5B77196B35CF003F2183 /* uatcDspOverlapAdd.cpp */; };
+		A9EF5B7A196B35CF003F2183 /* uatcDspOverlapAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EF5B78196B35CF003F2183 /* uatcDspOverlapAdd.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074ABC761941E76000530CF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0765196B19767D220057BE0E /* uatcDspIir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcDspIir.h; sourceTree = "<group>"; };
+		078BF09A19619570007046B3 /* uatcDspManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspManager.cpp; sourceTree = "<group>"; };
+		078BF09B19619570007046B3 /* uatcDspManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcDspManager.h; sourceTree = "<group>"; };
+		078BF09C19619570007046B3 /* uatcEffector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffector.h; sourceTree = "<group>"; };
+		078BF09D19619570007046B3 /* uatcEffectorFdfir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffectorFdfir.h; sourceTree = "<group>"; };
+		078BF09E19619570007046B3 /* uatcEffectorFlat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffectorFlat.h; sourceTree = "<group>"; };
+		079E760319800FD0009E7BBF /* uatcEffectorIirsos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffectorIirsos.h; sourceTree = "<group>"; };
+		07E749EF19409B400074D15C /* UATC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UATC.cpp; sourceTree = "<group>"; };
+		07E749F019409B400074D15C /* UATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATC.h; sourceTree = "<group>"; };
+		A903B8FD1979652400ED3388 /* uatcEffectorFdfireff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffectorFdfireff.h; sourceTree = "<group>"; };
+		A937DD061975AB0A00FC8511 /* uatcEffectorIir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcEffectorIir.h; sourceTree = "<group>"; };
+		A9C32EBC1BBFFAB1000F34FC /* uatcMatlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcMatlab.h; sourceTree = "<group>"; };
+		A9C32ED01BC07FDB000F34FC /* uatcDspFdfir1024Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir1024Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED11BC07FDB000F34FC /* uatcDspFdfir128Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir128Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED21BC07FDB000F34FC /* uatcDspFdfir256Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir256Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED31BC07FDB000F34FC /* uatcDspFdfir32Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir32Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED41BC07FDB000F34FC /* uatcDspFdfir512Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir512Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED51BC07FDB000F34FC /* uatcDspFdfir64Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFdfir64Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED61BC07FDB000F34FC /* uatcDspFir1024Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir1024Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED71BC07FDB000F34FC /* uatcDspFir128Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir128Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED81BC07FDB000F34FC /* uatcDspFir256Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir256Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32ED91BC07FDB000F34FC /* uatcDspFir32Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir32Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDA1BC07FDB000F34FC /* uatcDspFir512Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir512Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDB1BC07FDB000F34FC /* uatcDspFir64Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspFir64Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDC1BC07FDB000F34FC /* uatcDspIiryw16Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIiryw16Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDD1BC07FDB000F34FC /* uatcDspIiryw32Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIiryw32Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDE1BC07FDB000F34FC /* uatcDspIiryw4Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIiryw4Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EDF1BC07FDB000F34FC /* uatcDspIiryw64Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIiryw64Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE01BC07FDB000F34FC /* uatcDspIiryw8Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIiryw8Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE11BC07FDB000F34FC /* uatcDspIirywsos16Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIirywsos16Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE21BC07FDB000F34FC /* uatcDspIirywsos32Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIirywsos32Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE31BC07FDB000F34FC /* uatcDspIirywsos4Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIirywsos4Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE41BC07FDB000F34FC /* uatcDspIirywsos64Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIirywsos64Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE51BC07FDB000F34FC /* uatcDspIirywsos8Coefficients.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspIirywsos8Coefficients.cpp; sourceTree = "<group>"; };
+		A9C32EE61BC07FDB000F34FC /* uatcMatlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcMatlab.h; sourceTree = "<group>"; };
+		A9C32EFE1BC080C1000F34FC /* libUATC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUATC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EF5B77196B35CF003F2183 /* uatcDspOverlapAdd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uatcDspOverlapAdd.cpp; sourceTree = "<group>"; };
+		A9EF5B78196B35CF003F2183 /* uatcDspOverlapAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uatcDspOverlapAdd.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078BF2351961A0D4007046B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072DA40C197DC8BE0003E1DB /* DSP Effectors */ = {
+			isa = PBXGroup;
+			children = (
+				078BF09C19619570007046B3 /* uatcEffector.h */,
+				A937DD061975AB0A00FC8511 /* uatcEffectorIir.h */,
+				079E760319800FD0009E7BBF /* uatcEffectorIirsos.h */,
+				078BF09E19619570007046B3 /* uatcEffectorFlat.h */,
+				078BF09D19619570007046B3 /* uatcEffectorFdfir.h */,
+				A903B8FD1979652400ED3388 /* uatcEffectorFdfireff.h */,
+			);
+			name = "DSP Effectors";
+			sourceTree = "<group>";
+		};
+		072DA40D197DC8C80003E1DB /* DSP Elements */ = {
+			isa = PBXGroup;
+			children = (
+				078BF09A19619570007046B3 /* uatcDspManager.cpp */,
+				078BF09B19619570007046B3 /* uatcDspManager.h */,
+				A9EF5B77196B35CF003F2183 /* uatcDspOverlapAdd.cpp */,
+				A9EF5B78196B35CF003F2183 /* uatcDspOverlapAdd.h */,
+				0765196B19767D220057BE0E /* uatcDspIir.h */,
+			);
+			name = "DSP Elements";
+			sourceTree = "<group>";
+		};
+		074ABC751941E76000530CF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074ABC761941E76000530CF5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		078BF0BB1961975F007046B3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		07E749D2194095C80074D15C = {
+			isa = PBXGroup;
+			children = (
+				07E749EF19409B400074D15C /* UATC.cpp */,
+				07E749F019409B400074D15C /* UATC.h */,
+				072DA40C197DC8BE0003E1DB /* DSP Effectors */,
+				072DA40D197DC8C80003E1DB /* DSP Elements */,
+				A9C32ECF1BC07FDB000F34FC /* CoefficientsOut */,
+				078BF0BB1961975F007046B3 /* SupportingFiles */,
+				074ABC751941E76000530CF5 /* Frameworks */,
+				A9C32EFE1BC080C1000F34FC /* libUATC.a */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C32ECF1BC07FDB000F34FC /* CoefficientsOut */ = {
+			isa = PBXGroup;
+			children = (
+				A9C32EBC1BBFFAB1000F34FC /* uatcMatlab.h */,
+				A9C32ED01BC07FDB000F34FC /* uatcDspFdfir1024Coefficients.cpp */,
+				A9C32ED11BC07FDB000F34FC /* uatcDspFdfir128Coefficients.cpp */,
+				A9C32ED21BC07FDB000F34FC /* uatcDspFdfir256Coefficients.cpp */,
+				A9C32ED31BC07FDB000F34FC /* uatcDspFdfir32Coefficients.cpp */,
+				A9C32ED41BC07FDB000F34FC /* uatcDspFdfir512Coefficients.cpp */,
+				A9C32ED51BC07FDB000F34FC /* uatcDspFdfir64Coefficients.cpp */,
+				A9C32ED61BC07FDB000F34FC /* uatcDspFir1024Coefficients.cpp */,
+				A9C32ED71BC07FDB000F34FC /* uatcDspFir128Coefficients.cpp */,
+				A9C32ED81BC07FDB000F34FC /* uatcDspFir256Coefficients.cpp */,
+				A9C32ED91BC07FDB000F34FC /* uatcDspFir32Coefficients.cpp */,
+				A9C32EDA1BC07FDB000F34FC /* uatcDspFir512Coefficients.cpp */,
+				A9C32EDB1BC07FDB000F34FC /* uatcDspFir64Coefficients.cpp */,
+				A9C32EDC1BC07FDB000F34FC /* uatcDspIiryw16Coefficients.cpp */,
+				A9C32EDD1BC07FDB000F34FC /* uatcDspIiryw32Coefficients.cpp */,
+				A9C32EDE1BC07FDB000F34FC /* uatcDspIiryw4Coefficients.cpp */,
+				A9C32EDF1BC07FDB000F34FC /* uatcDspIiryw64Coefficients.cpp */,
+				A9C32EE01BC07FDB000F34FC /* uatcDspIiryw8Coefficients.cpp */,
+				A9C32EE11BC07FDB000F34FC /* uatcDspIirywsos16Coefficients.cpp */,
+				A9C32EE21BC07FDB000F34FC /* uatcDspIirywsos32Coefficients.cpp */,
+				A9C32EE31BC07FDB000F34FC /* uatcDspIirywsos4Coefficients.cpp */,
+				A9C32EE41BC07FDB000F34FC /* uatcDspIirywsos64Coefficients.cpp */,
+				A9C32EE51BC07FDB000F34FC /* uatcDspIirywsos8Coefficients.cpp */,
+				A9C32EE61BC07FDB000F34FC /* uatcMatlab.h */,
+			);
+			name = CoefficientsOut;
+			path = ../Matlab/CoefficientsOut;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		078BF2361961A0D4007046B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C32EFD1BC07FDB000F34FC /* uatcMatlab.h in Headers */,
+				A937DD071975AB0A00FC8511 /* uatcEffectorIir.h in Headers */,
+				07E21AF11961A1630083D560 /* uatcDspManager.h in Headers */,
+				07E21AF41961A1630083D560 /* uatcEffectorFlat.h in Headers */,
+				07E21AF81961A1630083D560 /* UATC.h in Headers */,
+				A9EF5B7A196B35CF003F2183 /* uatcDspOverlapAdd.h in Headers */,
+				A903B8FE1979652400ED3388 /* uatcEffectorFdfireff.h in Headers */,
+				079E760419800FD0009E7BBF /* uatcEffectorIirsos.h in Headers */,
+				07E21AF21961A1630083D560 /* uatcEffector.h in Headers */,
+				0765196C19767D220057BE0E /* uatcDspIir.h in Headers */,
+				A9C32EC31BBFFAB1000F34FC /* uatcMatlab.h in Headers */,
+				07E21AF31961A1630083D560 /* uatcEffectorFdfir.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		078BF2371961A0D4007046B3 /* UATC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078BF2391961A0D4007046B3 /* Build configuration list for PBXNativeTarget "UATC" */;
+			buildPhases = (
+				078BF2341961A0D4007046B3 /* Sources */,
+				078BF2351961A0D4007046B3 /* Frameworks */,
+				078BF2361961A0D4007046B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UATC;
+			productName = UATC;
+			productReference = A9C32EFE1BC080C1000F34FC /* libUATC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E749D3194095C80074D15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Oliver Hawker";
+			};
+			buildConfigurationList = 07E749D6194095C80074D15C /* Build configuration list for PBXProject "UATC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07E749D2194095C80074D15C;
+			productRefGroup = 07E749D2194095C80074D15C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078BF2371961A0D4007046B3 /* UATC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078BF2341961A0D4007046B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C32EF91BC07FDB000F34FC /* uatcDspIirywsos32Coefficients.cpp in Sources */,
+				A9C32EFB1BC07FDB000F34FC /* uatcDspIirywsos64Coefficients.cpp in Sources */,
+				A9C32EF31BC07FDB000F34FC /* uatcDspIiryw16Coefficients.cpp in Sources */,
+				A9C32EEE1BC07FDB000F34FC /* uatcDspFir128Coefficients.cpp in Sources */,
+				A9C32EEA1BC07FDB000F34FC /* uatcDspFdfir32Coefficients.cpp in Sources */,
+				A9C32EFC1BC07FDB000F34FC /* uatcDspIirywsos8Coefficients.cpp in Sources */,
+				A9C32EEF1BC07FDB000F34FC /* uatcDspFir256Coefficients.cpp in Sources */,
+				A9C32EF81BC07FDB000F34FC /* uatcDspIirywsos16Coefficients.cpp in Sources */,
+				A9C32EED1BC07FDB000F34FC /* uatcDspFir1024Coefficients.cpp in Sources */,
+				A9C32EF21BC07FDB000F34FC /* uatcDspFir64Coefficients.cpp in Sources */,
+				A9C32EF51BC07FDB000F34FC /* uatcDspIiryw4Coefficients.cpp in Sources */,
+				A9C32EEB1BC07FDB000F34FC /* uatcDspFdfir512Coefficients.cpp in Sources */,
+				A9C32EE91BC07FDB000F34FC /* uatcDspFdfir256Coefficients.cpp in Sources */,
+				A9C32EFA1BC07FDB000F34FC /* uatcDspIirywsos4Coefficients.cpp in Sources */,
+				A9C32EE81BC07FDB000F34FC /* uatcDspFdfir128Coefficients.cpp in Sources */,
+				07E21AF71961A1630083D560 /* UATC.cpp in Sources */,
+				07E21AF01961A1630083D560 /* uatcDspManager.cpp in Sources */,
+				A9C32EF71BC07FDB000F34FC /* uatcDspIiryw8Coefficients.cpp in Sources */,
+				A9C32EEC1BC07FDB000F34FC /* uatcDspFdfir64Coefficients.cpp in Sources */,
+				A9C32EE71BC07FDB000F34FC /* uatcDspFdfir1024Coefficients.cpp in Sources */,
+				A9EF5B79196B35CF003F2183 /* uatcDspOverlapAdd.cpp in Sources */,
+				A9C32EF01BC07FDB000F34FC /* uatcDspFir32Coefficients.cpp in Sources */,
+				A9C32EF11BC07FDB000F34FC /* uatcDspFir512Coefficients.cpp in Sources */,
+				A9C32EF61BC07FDB000F34FC /* uatcDspIiryw64Coefficients.cpp in Sources */,
+				A9C32EF41BC07FDB000F34FC /* uatcDspIiryw32Coefficients.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		078BF23A1961A0D4007046B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../Matlab/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Ollie/Development/UATC/Matlab/MATLABCoder/Build,
+					/usr/local/Cellar/fftw/3.3.4/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = UATC;
+				SDKROOT = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		078BF23B1961A0D4007046B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../Matlab/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Ollie/Development/UATC/Matlab/MATLABCoder/Build,
+					/usr/local/Cellar/fftw/3.3.4/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = UATC;
+				SDKROOT = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		07E749DD194095C80074D15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		07E749DE194095C80074D15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078BF2391961A0D4007046B3 /* Build configuration list for PBXNativeTarget "UATC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078BF23A1961A0D4007046B3 /* Debug */,
+				078BF23B1961A0D4007046B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E749D6194095C80074D15C /* Build configuration list for PBXProject "UATC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E749DD194095C80074D15C /* Debug */,
+				07E749DE194095C80074D15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E749D3194095C80074D15C /* Project object */;
+}

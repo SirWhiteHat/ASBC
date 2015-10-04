@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074ABCAA1941F06E00530CF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 074ABCA91941F06E00530CF5 /* Default-568h@2x.png */; };
+		075FC5F919616EB2004675ED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 075FC5EC19616EB2004675ED /* AppDelegate.mm */; };
+		075FC5FA19616EB2004675ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075FC5ED19616EB2004675ED /* InfoPlist.strings */; };
+		075FC5FB19616EB2004675ED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FC5EF19616EB2004675ED /* ViewController_iPad.xib */; };
+		075FC5FC19616EB2004675ED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FC5F119616EB2004675ED /* ViewController_iPhone.xib */; };
+		075FC5FD19616EB2004675ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FC5F319616EB2004675ED /* main.m */; };
+		075FC5FE19616EB2004675ED /* TLC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075FC5F419616EB2004675ED /* TLC.mp3 */; };
+		075FC5FF19616EB2004675ED /* UATC Demo iOS Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FC5F519616EB2004675ED /* UATC Demo iOS Example-Info.plist */; };
+		075FC60019616EB2004675ED /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 075FC5F819616EB2004675ED /* ViewController.mm */; };
+		075FC60D19616EC5004675ED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 075FC60319616EC5004675ED /* AppDelegate.mm */; };
+		075FC60E19616EC5004675ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 075FC60419616EC5004675ED /* Credits.rtf */; };
+		075FC60F19616EC5004675ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075FC60619616EC5004675ED /* InfoPlist.strings */; };
+		075FC61019616EC5004675ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075FC60819616EC5004675ED /* MainMenu.xib */; };
+		075FC61119616EC5004675ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FC60A19616EC5004675ED /* main.m */; };
+		075FC61219616EC5004675ED /* UATC Demo Mac Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FC60B19616EC5004675ED /* UATC Demo Mac Example-Info.plist */; };
+		07E74B161940D2440074D15C /* UATCDemo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07E74B151940D2430074D15C /* UATCDemo.mm */; };
+		07E74B171940D2440074D15C /* UATCDemo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07E74B151940D2430074D15C /* UATCDemo.mm */; };
+		9AE2143E1768D0C60068A4DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2143D1768D0C60068A4DC /* AVFoundation.framework */; };
+		A9C32EFF1BC08179000F34FC /* libUATC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BF21D19619EFA007046B3 /* libUATC.a */; };
+		A9C32F001BC08182000F34FC /* libUATC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 078BF21D19619EFA007046B3 /* libUATC.a */; };
+		A9C32F071BC08872000F34FC /* Audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F021BC08872000F34FC /* Audio1.mp3 */; };
+		A9C32F081BC08872000F34FC /* Audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F021BC08872000F34FC /* Audio1.mp3 */; };
+		A9C32F091BC08872000F34FC /* Audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F031BC08872000F34FC /* Audio2.mp3 */; };
+		A9C32F0A1BC08872000F34FC /* Audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F031BC08872000F34FC /* Audio2.mp3 */; };
+		A9C32F0B1BC08872000F34FC /* Audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F041BC08872000F34FC /* Audio3.mp3 */; };
+		A9C32F0C1BC08872000F34FC /* Audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F041BC08872000F34FC /* Audio3.mp3 */; };
+		A9C32F0D1BC08872000F34FC /* Audio4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F051BC08872000F34FC /* Audio4.mp3 */; };
+		A9C32F0E1BC08872000F34FC /* Audio4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F051BC08872000F34FC /* Audio4.mp3 */; };
+		A9C32F0F1BC08872000F34FC /* Audio5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F061BC08872000F34FC /* Audio5.mp3 */; };
+		A9C32F101BC08872000F34FC /* Audio5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9C32F061BC08872000F34FC /* Audio5.mp3 */; };
+		FA0B92E9154ACB100079834E /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0B92E8154ACB100079834E /* AudioFileReader.mm */; };
+		FA0B92EA154ACB100079834E /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA0B92E8154ACB100079834E /* AudioFileReader.mm */; };
+		FA2015ED154B0DA700F8D3AC /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2015EC154B0DA700F8D3AC /* AudioFileWriter.m */; };
+		FA2015EE154B0DA700F8D3AC /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2015EC154B0DA700F8D3AC /* AudioFileWriter.m */; };
+		FA55267E152A63B6003D9601 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55265D152A63AE003D9601 /* Cocoa.framework */; };
+		FA55269A152A63F6003D9601 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = FA552696152A63F6003D9601 /* Novocaine.m */; };
+		FA55269C152A63F6003D9601 /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA552698152A63F6003D9601 /* RingBuffer.mm */; };
+		FA5526A5152A640E003D9601 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55269D152A6405003D9601 /* Accelerate.framework */; };
+		FA5526A6152A640E003D9601 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55269E152A6405003D9601 /* AudioToolbox.framework */; };
+		FA5526A7152A640E003D9601 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55269F152A6405003D9601 /* AudioUnit.framework */; };
+		FA5526A8152A640E003D9601 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5526A0152A6405003D9601 /* CoreAudio.framework */; };
+		FA5526D0152A6452003D9601 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA552637152A63A4003D9601 /* UIKit.framework */; };
+		FA5526D1152A6452003D9601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA552639152A63A4003D9601 /* Foundation.framework */; };
+		FA5526D2152A6452003D9601 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA55263B152A63A4003D9601 /* CoreGraphics.framework */; };
+		FA5526EF152A6466003D9601 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5526EB152A6466003D9601 /* Accelerate.framework */; };
+		FA5526F0152A6466003D9601 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5526EC152A6466003D9601 /* AudioToolbox.framework */; };
+		FA5526F2152A6466003D9601 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5526EE152A6466003D9601 /* CoreAudio.framework */; };
+		FA9FB52B152A6505004B7AA8 /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = FA552696152A63F6003D9601 /* Novocaine.m */; };
+		FA9FB52D152A6505004B7AA8 /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA552698152A63F6003D9601 /* RingBuffer.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078BF21C19619EFA007046B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FC61319617093004675ED /* UATC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 078BF0C119619C4D007046B3;
+			remoteInfo = UATC;
+		};
+		078BF2311961A049007046B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FC61319617093004675ED /* UATC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 078BF2371961A0D4007046B3;
+			remoteInfo = UATC;
+		};
+		A9C32EC61BC00FDC000F34FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FC61319617093004675ED /* UATC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 078BF2371961A0D4007046B3;
+			remoteInfo = UATC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074ABCA91941F06E00530CF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		075FC5EB19616EB2004675ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075FC5EC19616EB2004675ED /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		075FC5EE19616EB2004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		075FC5F019616EB2004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		075FC5F219616EB2004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		075FC5F319616EB2004675ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075FC5F419616EB2004675ED /* TLC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TLC.mp3; sourceTree = "<group>"; };
+		075FC5F519616EB2004675ED /* UATC Demo iOS Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UATC Demo iOS Example-Info.plist"; sourceTree = "<group>"; };
+		075FC5F619616EB2004675ED /* UATC Demo iOS Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UATC Demo iOS Example-Prefix.pch"; sourceTree = "<group>"; };
+		075FC5F719616EB2004675ED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		075FC5F819616EB2004675ED /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		075FC60219616EC5004675ED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075FC60319616EC5004675ED /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		075FC60519616EC5004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		075FC60719616EC5004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		075FC60919616EC5004675ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		075FC60A19616EC5004675ED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075FC60B19616EC5004675ED /* UATC Demo Mac Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UATC Demo Mac Example-Info.plist"; sourceTree = "<group>"; };
+		075FC60C19616EC5004675ED /* UATC Demo Mac Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UATC Demo Mac Example-Prefix.pch"; sourceTree = "<group>"; };
+		075FC61319617093004675ED /* UATC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UATC.xcodeproj; path = ../Library/UATC.xcodeproj; sourceTree = "<group>"; };
+		07E74B141940D2430074D15C /* UATCDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATCDemo.h; sourceTree = "<group>"; };
+		07E74B151940D2430074D15C /* UATCDemo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UATCDemo.mm; sourceTree = "<group>"; };
+		9AE2143D1768D0C60068A4DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9C32ECD1BC01117000F34FC /* libUATC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUATC.a; path = "../../../Library/Developer/Xcode/DerivedData/ASBC-bgdbxlursfejmohhhlumputvcsuq/Build/Products/Debug/libUATC.a"; sourceTree = "<group>"; };
+		A9C32F021BC08872000F34FC /* Audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio1.mp3; sourceTree = "<group>"; };
+		A9C32F031BC08872000F34FC /* Audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio2.mp3; sourceTree = "<group>"; };
+		A9C32F041BC08872000F34FC /* Audio3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio3.mp3; sourceTree = "<group>"; };
+		A9C32F051BC08872000F34FC /* Audio4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio4.mp3; sourceTree = "<group>"; };
+		A9C32F061BC08872000F34FC /* Audio5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio5.mp3; sourceTree = "<group>"; };
+		FA0B92E7154ACB100079834E /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
+		FA0B92E8154ACB100079834E /* AudioFileReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioFileReader.mm; sourceTree = "<group>"; };
+		FA2015EB154B0D9B00F8D3AC /* AudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileWriter.h; sourceTree = "<group>"; };
+		FA2015EC154B0DA700F8D3AC /* AudioFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFileWriter.m; sourceTree = "<group>"; };
+		FA552637152A63A4003D9601 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA552639152A63A4003D9601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA55263B152A63A4003D9601 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA55265D152A63AE003D9601 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FA552660152A63AE003D9601 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA552661152A63AE003D9601 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA552662152A63AE003D9601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA55267C152A63B6003D9601 /* UATC Demo Mac Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UATC Demo Mac Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA552695152A63F6003D9601 /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		FA552696152A63F6003D9601 /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+		FA552697152A63F6003D9601 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		FA552698152A63F6003D9601 /* RingBuffer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RingBuffer.mm; sourceTree = "<group>"; };
+		FA55269D152A6405003D9601 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		FA55269E152A6405003D9601 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		FA55269F152A6405003D9601 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework; sourceTree = DEVELOPER_DIR; };
+		FA5526A0152A6405003D9601 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		FA5526CE152A6451003D9601 /* UATC Demo iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UATC Demo iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5526EB152A6466003D9601 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FA5526EC152A6466003D9601 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA5526ED152A6466003D9601 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		FA5526EE152A6466003D9601 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA552679152A63B6003D9601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C32EFF1BC08179000F34FC /* libUATC.a in Frameworks */,
+				FA5526A5152A640E003D9601 /* Accelerate.framework in Frameworks */,
+				FA5526A6152A640E003D9601 /* AudioToolbox.framework in Frameworks */,
+				FA5526A7152A640E003D9601 /* AudioUnit.framework in Frameworks */,
+				FA5526A8152A640E003D9601 /* CoreAudio.framework in Frameworks */,
+				FA55267E152A63B6003D9601 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5526CB152A6451003D9601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C32F001BC08182000F34FC /* libUATC.a in Frameworks */,
+				9AE2143E1768D0C60068A4DC /* AVFoundation.framework in Frameworks */,
+				FA5526EF152A6466003D9601 /* Accelerate.framework in Frameworks */,
+				FA5526F0152A6466003D9601 /* AudioToolbox.framework in Frameworks */,
+				FA5526F2152A6466003D9601 /* CoreAudio.framework in Frameworks */,
+				FA5526D0152A6452003D9601 /* UIKit.framework in Frameworks */,
+				FA5526D1152A6452003D9601 /* Foundation.framework in Frameworks */,
+				FA5526D2152A6452003D9601 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0717DEBB19583AFF00462943 /* Test Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A9C32F021BC08872000F34FC /* Audio1.mp3 */,
+				A9C32F031BC08872000F34FC /* Audio2.mp3 */,
+				A9C32F041BC08872000F34FC /* Audio3.mp3 */,
+				A9C32F051BC08872000F34FC /* Audio4.mp3 */,
+				A9C32F061BC08872000F34FC /* Audio5.mp3 */,
+			);
+			path = "Test Audio";
+			sourceTree = "<group>";
+		};
+		075FC5EA19616EB2004675ED /* iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				075FC5EB19616EB2004675ED /* AppDelegate.h */,
+				075FC5EC19616EB2004675ED /* AppDelegate.mm */,
+				075FC5ED19616EB2004675ED /* InfoPlist.strings */,
+				075FC5EF19616EB2004675ED /* ViewController_iPad.xib */,
+				075FC5F119616EB2004675ED /* ViewController_iPhone.xib */,
+				075FC5F319616EB2004675ED /* main.m */,
+				075FC5F419616EB2004675ED /* TLC.mp3 */,
+				075FC5F519616EB2004675ED /* UATC Demo iOS Example-Info.plist */,
+				075FC5F619616EB2004675ED /* UATC Demo iOS Example-Prefix.pch */,
+				075FC5F719616EB2004675ED /* ViewController.h */,
+				075FC5F819616EB2004675ED /* ViewController.mm */,
+			);
+			path = "iOS Example";
+			sourceTree = SOURCE_ROOT;
+		};
+		075FC60119616EC5004675ED /* Mac Example */ = {
+			isa = PBXGroup;
+			children = (
+				075FC60219616EC5004675ED /* AppDelegate.h */,
+				075FC60319616EC5004675ED /* AppDelegate.mm */,
+				075FC60419616EC5004675ED /* Credits.rtf */,
+				075FC60619616EC5004675ED /* InfoPlist.strings */,
+				075FC60819616EC5004675ED /* MainMenu.xib */,
+				075FC60A19616EC5004675ED /* main.m */,
+				075FC60B19616EC5004675ED /* UATC Demo Mac Example-Info.plist */,
+				075FC60C19616EC5004675ED /* UATC Demo Mac Example-Prefix.pch */,
+			);
+			path = "Mac Example";
+			sourceTree = "<group>";
+		};
+		075FC61419617093004675ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078BF21D19619EFA007046B3 /* libUATC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA552628152A63A4003D9601 = {
+			isa = PBXGroup;
+			children = (
+				075FC61319617093004675ED /* UATC.xcodeproj */,
+				074ABCA91941F06E00530CF5 /* Default-568h@2x.png */,
+				07E74B141940D2430074D15C /* UATCDemo.h */,
+				07E74B151940D2430074D15C /* UATCDemo.mm */,
+				FA552694152A63F6003D9601 /* Novocaine */,
+				075FC5EA19616EB2004675ED /* iOS Example */,
+				075FC60119616EC5004675ED /* Mac Example */,
+				FA552636152A63A4003D9601 /* Frameworks */,
+				FA552634152A63A4003D9601 /* Products */,
+				0717DEBB19583AFF00462943 /* Test Audio */,
+			);
+			sourceTree = "<group>";
+		};
+		FA552634152A63A4003D9601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA55267C152A63B6003D9601 /* UATC Demo Mac Example.app */,
+				FA5526CE152A6451003D9601 /* UATC Demo iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA552636152A63A4003D9601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C32ECD1BC01117000F34FC /* libUATC.a */,
+				FA5526EB152A6466003D9601 /* Accelerate.framework */,
+				FA55269D152A6405003D9601 /* Accelerate.framework */,
+				FA5526EC152A6466003D9601 /* AudioToolbox.framework */,
+				FA55269E152A6405003D9601 /* AudioToolbox.framework */,
+				FA5526ED152A6466003D9601 /* AudioUnit.framework */,
+				FA55269F152A6405003D9601 /* AudioUnit.framework */,
+				9AE2143D1768D0C60068A4DC /* AVFoundation.framework */,
+				FA5526EE152A6466003D9601 /* CoreAudio.framework */,
+				FA5526A0152A6405003D9601 /* CoreAudio.framework */,
+				FA55263B152A63A4003D9601 /* CoreGraphics.framework */,
+				FA552639152A63A4003D9601 /* Foundation.framework */,
+				FA552637152A63A4003D9601 /* UIKit.framework */,
+				FA55265D152A63AE003D9601 /* Cocoa.framework */,
+				FA55265F152A63AE003D9601 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA55265F152A63AE003D9601 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA552660152A63AE003D9601 /* AppKit.framework */,
+				FA552661152A63AE003D9601 /* CoreData.framework */,
+				FA552662152A63AE003D9601 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA552694152A63F6003D9601 /* Novocaine */ = {
+			isa = PBXGroup;
+			children = (
+				FA2015EB154B0D9B00F8D3AC /* AudioFileWriter.h */,
+				FA2015EC154B0DA700F8D3AC /* AudioFileWriter.m */,
+				FA552695152A63F6003D9601 /* Novocaine.h */,
+				FA552696152A63F6003D9601 /* Novocaine.m */,
+				FA552697152A63F6003D9601 /* RingBuffer.h */,
+				FA552698152A63F6003D9601 /* RingBuffer.mm */,
+				FA0B92E7154ACB100079834E /* AudioFileReader.h */,
+				FA0B92E8154ACB100079834E /* AudioFileReader.mm */,
+			);
+			path = Novocaine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA55267B152A63B6003D9601 /* UATC Demo Mac Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA552691152A63B6003D9601 /* Build configuration list for PBXNativeTarget "UATC Demo Mac Example" */;
+			buildPhases = (
+				FA552678152A63B6003D9601 /* Sources */,
+				FA552679152A63B6003D9601 /* Frameworks */,
+				FA55267A152A63B6003D9601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C32EC71BC00FDC000F34FC /* PBXTargetDependency */,
+			);
+			name = "UATC Demo Mac Example";
+			productName = "Novocaine Mac Example";
+			productReference = FA55267C152A63B6003D9601 /* UATC Demo Mac Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5526CD152A6451003D9601 /* UATC Demo iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5526E8152A6452003D9601 /* Build configuration list for PBXNativeTarget "UATC Demo iOS Example" */;
+			buildPhases = (
+				FA5526CA152A6451003D9601 /* Sources */,
+				FA5526CB152A6451003D9601 /* Frameworks */,
+				FA5526CC152A6451003D9601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078BF2321961A049007046B3 /* PBXTargetDependency */,
+			);
+			name = "UATC Demo iOS Example";
+			productName = "Novocaine iOS Example";
+			productReference = FA5526CE152A6451003D9601 /* UATC Demo iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA55262A152A63A4003D9601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Datta Lab, Harvard University";
+			};
+			buildConfigurationList = FA55262D152A63A4003D9601 /* Build configuration list for PBXProject "UATC Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA552628152A63A4003D9601;
+			productRefGroup = FA552634152A63A4003D9601 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 075FC61419617093004675ED /* Products */;
+					ProjectRef = 075FC61319617093004675ED /* UATC.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FA55267B152A63B6003D9601 /* UATC Demo Mac Example */,
+				FA5526CD152A6451003D9601 /* UATC Demo iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		078BF21D19619EFA007046B3 /* libUATC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUATC.a;
+			remoteRef = 078BF21C19619EFA007046B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA55267A152A63B6003D9601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FC61219616EC5004675ED /* UATC Demo Mac Example-Info.plist in Resources */,
+				A9C32F0B1BC08872000F34FC /* Audio3.mp3 in Resources */,
+				A9C32F0F1BC08872000F34FC /* Audio5.mp3 in Resources */,
+				A9C32F071BC08872000F34FC /* Audio1.mp3 in Resources */,
+				A9C32F091BC08872000F34FC /* Audio2.mp3 in Resources */,
+				075FC60E19616EC5004675ED /* Credits.rtf in Resources */,
+				075FC60F19616EC5004675ED /* InfoPlist.strings in Resources */,
+				A9C32F0D1BC08872000F34FC /* Audio4.mp3 in Resources */,
+				075FC61019616EC5004675ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5526CC152A6451003D9601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FC5FF19616EB2004675ED /* UATC Demo iOS Example-Info.plist in Resources */,
+				A9C32F0C1BC08872000F34FC /* Audio3.mp3 in Resources */,
+				075FC5FB19616EB2004675ED /* ViewController_iPad.xib in Resources */,
+				075FC5FC19616EB2004675ED /* ViewController_iPhone.xib in Resources */,
+				A9C32F081BC08872000F34FC /* Audio1.mp3 in Resources */,
+				A9C32F0A1BC08872000F34FC /* Audio2.mp3 in Resources */,
+				A9C32F0E1BC08872000F34FC /* Audio4.mp3 in Resources */,
+				074ABCAA1941F06E00530CF5 /* Default-568h@2x.png in Resources */,
+				075FC5FE19616EB2004675ED /* TLC.mp3 in Resources */,
+				075FC5FA19616EB2004675ED /* InfoPlist.strings in Resources */,
+				A9C32F101BC08872000F34FC /* Audio5.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA552678152A63B6003D9601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E74B161940D2440074D15C /* UATCDemo.mm in Sources */,
+				075FC60D19616EC5004675ED /* AppDelegate.mm in Sources */,
+				FA55269A152A63F6003D9601 /* Novocaine.m in Sources */,
+				FA55269C152A63F6003D9601 /* RingBuffer.mm in Sources */,
+				FA0B92E9154ACB100079834E /* AudioFileReader.mm in Sources */,
+				075FC61119616EC5004675ED /* main.m in Sources */,
+				FA2015ED154B0DA700F8D3AC /* AudioFileWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5526CA152A6451003D9601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FC60019616EB2004675ED /* ViewController.mm in Sources */,
+				075FC5FD19616EB2004675ED /* main.m in Sources */,
+				FA9FB52B152A6505004B7AA8 /* Novocaine.m in Sources */,
+				FA9FB52D152A6505004B7AA8 /* RingBuffer.mm in Sources */,
+				075FC5F919616EB2004675ED /* AppDelegate.mm in Sources */,
+				FA0B92EA154ACB100079834E /* AudioFileReader.mm in Sources */,
+				FA2015EE154B0DA700F8D3AC /* AudioFileWriter.m in Sources */,
+				07E74B171940D2440074D15C /* UATCDemo.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078BF2321961A049007046B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UATC;
+			targetProxy = 078BF2311961A049007046B3 /* PBXContainerItemProxy */;
+		};
+		A9C32EC71BC00FDC000F34FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UATC;
+			targetProxy = A9C32EC61BC00FDC000F34FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075FC5ED19616EB2004675ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC5EE19616EB2004675ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		075FC5EF19616EB2004675ED /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC5F019616EB2004675ED /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		075FC5F119616EB2004675ED /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC5F219616EB2004675ED /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		075FC60419616EC5004675ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC60519616EC5004675ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		075FC60619616EC5004675ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC60719616EC5004675ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		075FC60819616EC5004675ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FC60919616EC5004675ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA552652152A63A5003D9601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../libUATC,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA552653152A63A5003D9601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../libUATC,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA552692152A63B6003D9601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Example/UATC Demo Mac Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../Library,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Mac Example/UATC Demo Mac Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ASBC-bgdbxlursfejmohhhlumputvcsuq/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "UATC Demo Mac Example";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA552693152A63B6003D9601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac Example/UATC Demo Mac Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../Library,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Mac Example/UATC Demo Mac Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ASBC-bgdbxlursfejmohhhlumputvcsuq/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "UATC Demo Mac Example";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA5526E9152A6452003D9601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Example/UATC Demo iOS Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../Library,
+				);
+				INFOPLIST_FILE = "iOS Example/UATC Demo iOS Example-Info.plist";
+				PRODUCT_NAME = "UATC Demo iOS Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA5526EA152A6452003D9601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Example/UATC Demo iOS Example-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../Library,
+				);
+				INFOPLIST_FILE = "iOS Example/UATC Demo iOS Example-Info.plist";
+				PRODUCT_NAME = "UATC Demo iOS Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA55262D152A63A4003D9601 /* Build configuration list for PBXProject "UATC Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA552652152A63A5003D9601 /* Debug */,
+				FA552653152A63A5003D9601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA552691152A63B6003D9601 /* Build configuration list for PBXNativeTarget "UATC Demo Mac Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA552692152A63B6003D9601 /* Debug */,
+				FA552693152A63B6003D9601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5526E8152A6452003D9601 /* Build configuration list for PBXNativeTarget "UATC Demo iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5526E9152A6452003D9601 /* Debug */,
+				FA5526EA152A6452003D9601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA55262A152A63A4003D9601 /* Project object */;
+}

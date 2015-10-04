@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B60A3872-B54B-46E3-91BC-16858B09C22B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UATC Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>999570F1-59A1-48D1-87B9-151AFF129201</key>
+		<string>https://bitbucket.org/ohawker/uatc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Novocaine Demo/UATC Demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>999570F1-59A1-48D1-87B9-151AFF129201</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/ohawker/uatc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>999570F1-59A1-48D1-87B9-151AFF129201</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>999570F1-59A1-48D1-87B9-151AFF129201</string>
+			<key>IDESourceControlWCCName</key>
+			<string>uatc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
